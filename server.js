@@ -101,7 +101,7 @@ app.post('/detectLabels', function(request, response) {
                table += "</tr>"
             }    
             table += "</table>"
-            response.send(data)
+            response.send(table)
         }
     })
 
